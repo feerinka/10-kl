@@ -1,0 +1,18 @@
+summa = float(input("cik tev ir naudas?"))
+summa2 = float(input("cik tu gribi?"))
+procent = float(input("gada likme"))
+count = 0
+
+while summa < summa2:
+    summa += summa*(procent/100)
+    count +=1
+    print(count, "gads", round(summa,2))
+
+
+gads = int(input("uz cik gadu iebāzd?"))
+
+for i in range(count):
+    summa+= summa*(procent/100)
+    gads += -1
+    print(gads,"gads",round(summa,2))
+    
