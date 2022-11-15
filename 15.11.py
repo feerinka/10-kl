@@ -2,7 +2,7 @@ from turtle import*
 a=Turtle()
 a.shape("turtle")
 a.pencolor("black")
-a.fillcolor("dark red")
+a.fillcolor("#9D2235")
 a.pensize(4)
 
 a.begin_fill()
